@@ -2,7 +2,7 @@
 import telebot
 
 # создаем переменную + пишем полученный токен
-bot = telebot.TeleBot = ('1198216242:AAFaAwFAOOm9FbBFJqOumMBuzeS5Pmtg-_s')
+bot = telebot.TeleBot = ('')
 
 #реакция на команду /start
 @bot.message_handler(commands=['start'])
