@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot('1198216242:AAFaAwFAOOm9FbBFJqOumMBuzeS5Pmtg-_s') # создаем переменную + пишем полученный токен
+bot = telebot.TeleBot('') # создаем переменную + пишем полученный токен
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
